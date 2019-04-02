@@ -4,7 +4,9 @@
 3. Usually it takes about 2 hours in total on installation and these tasks. To respect your time, we don't ask that you spend more than this, and it is ok if you do not get to everything.
 4. Write your code as if you were a team member working on a joint codebase with other developers and follow good team-based development practices.  Assume your fellow teammates have not seen the project requirements.  
 5. Assume you are writing this code for a production environment where errors and edge-cases should be handled gracefully.  
-6. This technical assessment is testing your *full-stack* abilities, consider the setup of the environment as part of the assessment.  
+6. This technical assessment is testing your *full-stack* abilities, consider the setup of the environment as part of the assessment.
+7. Feel free to use Google and StackOverflow, after all, that is what we do in real-life programming.
+8. However there are other pull requests in this repository, but please do not look at them and instead do your own work. Be aware that some of these pull requests have been planted there to check for cheating.   
 
 ### Setup ###
 1. Setup for a new python project as normal, we recommend using virtualenv and python 2.7
