@@ -46,8 +46,7 @@
     * This table of users should be bordered and striped (ie alternate rows and with grey and white stripes)
     * Your new page likely shares some styles with the dashboard. Ensure that these styles are located in a reasonable location and without duplication.
     
-    * OPTIONAL: Display user phone numbers in an additional column.
-    * If users have multiple phone numbers, Some users may have more than 1 phone number, each phone number should be displayed on a separate line.
+    * OPTIONAL: Display user phone numbers in an additional column. If users have multiple phone numbers, Some users may have more than 1 phone number, each phone number should be displayed on a separate line.
     
 4. Refactor the User.is_below_tier method
 
