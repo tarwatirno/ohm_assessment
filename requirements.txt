@@ -44,7 +44,7 @@ PyYAML==3.11
 redis==2.10.5
 requests==2.7.0
 requests-oauthlib==0.5.0
-SQLAlchemy==1.0.12
+SQLAlchemy==1.2.19
 tzlocal==1.1.2
 ua-parser==0.3.6
 unittest2==1.1.0
