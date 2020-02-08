@@ -12,7 +12,7 @@
 1. Setup for a new python project as normal, we recommend using virtualenv and python 2.7
     * For more details, follow: http://timsherratt.org/digital-heritage-handbook/docs/python-pip-virtualenv/
 2. Setup a MySQL database
-3. *Fork* the [ohm_assessment](https://bitbucket.org/ohmconnect/ohm_assessment) repository into your own repo
+3. *Fork* the [ohm_assessment](https://github.com/ohmconnect/ohm_assessment) repository into your own repo
 4. Set your python path, eg `export PYTHONPATH=/path/to/my/repo`
 5. Add the pip modules: `pip install -r requirements.txt`
 6. Copy config/my_development.cnf.sample to config/my_development.cnf and update with your MySQL information
