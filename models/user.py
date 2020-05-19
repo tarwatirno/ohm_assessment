@@ -26,6 +26,9 @@ class User(db.Model):
     email_address = db.Column(db.String(255), unique=True)
     display_name = db.Column(db.String(50), unique=True)
 
+    address = db.Column(db.String(255))
+    zip_code = db.Column(db.String(5))
+
     group_id = db.Column(db.Integer, default=None)
     point_balance = db.Column(db.Float(Precision=64), default=0)
     credit_balance = db.Column(db.Float(Precision=64), default=0)
