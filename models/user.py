@@ -154,6 +154,9 @@ class User(db.Model):
     def short_name(self):
         return self.display_name
 
+    def get_email(self):
+        return self.email_address
+
     def get_points_and_dollars(self):
         points = int(self.point_balance)
         return {"points": points, "dollars": points / 100}
@@ -251,4 +254,3 @@ class User(db.Model):
     @classmethod
     def find_by_attribute(cls, rel_lookup, attribute):
         return User.query.join(RelUser).filter_by(rel_lookup=rel_lookup, attribute=attribute).first()
-
